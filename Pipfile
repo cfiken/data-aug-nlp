@@ -1,0 +1,26 @@
+[[source]]
+verify_ssl = true
+name = "pypi"
+url = "https://pypi.org/simple"
+
+[scripts]
+lint = "flake8"
+
+[packages]
+jupyter = "*"
+jupyterlab = "*"
+matplotlib = "*"
+mypy = "*"
+"flake8" = "*"
+scikit-learn = "*"
+torch = "*"
+torchvision = "*"
+regex = "*"
+pandas = "*"
+tensorflow-gpu = "==1.13.1"
+tqdm = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7.0"
