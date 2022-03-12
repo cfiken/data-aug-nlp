@@ -17,7 +17,7 @@ torch = "*"
 torchvision = "*"
 regex = "*"
 pandas = "*"
-tensorflow-gpu = "==1.13.1"
+tensorflow-gpu = "==2.5.3"
 tqdm = "*"
 
 [dev-packages]
